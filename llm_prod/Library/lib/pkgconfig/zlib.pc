@@ -1,0 +1,13 @@
+prefix=D:/document_portal_llm/document_portal/llm_prod/Library
+exec_prefix=D:/document_portal_llm/document_portal/llm_prod/Library
+libdir=D:/document_portal_llm/document_portal/llm_prod/Library/lib
+sharedlibdir=D:/document_portal_llm/document_portal/llm_prod/Library/lib
+includedir=D:/document_portal_llm/document_portal/llm_prod/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
